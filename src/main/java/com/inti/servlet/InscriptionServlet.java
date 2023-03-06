@@ -19,6 +19,9 @@ import com.inti.model.Utilisateur;
 import com.inti.model.UtilisateurDetails;
 import com.inti.util.HibernateUtil;
 
+/*
+ * Classe Servlet...
+ */
 
 @WebServlet("/inscription")
 public class InscriptionServlet extends HttpServlet {
@@ -29,7 +32,6 @@ public class InscriptionServlet extends HttpServlet {
        
     public InscriptionServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
