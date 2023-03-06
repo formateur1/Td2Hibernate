@@ -53,6 +53,7 @@ public class InscriptionServlet extends HttpServlet {
 			
 			if(request.getParameter("formule").equals("classique"))
 			{
+				// ajout de commentaire
 				u1 = new Utilisateur(request.getParameter("login"), request.getParameter("mdp"));
 			}
 			else if(request.getParameter("formule").equals("abonne"))
