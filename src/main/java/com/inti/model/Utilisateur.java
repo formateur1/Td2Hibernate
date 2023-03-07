@@ -20,7 +20,8 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 /*
- * Classe Utilisateur : ...
+ * Classe Utilisateur : modifications...
+ * ajout des différentes fonctionnalités
  */
 
 @Entity
