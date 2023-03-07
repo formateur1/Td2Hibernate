@@ -21,7 +21,11 @@ public class UAbonne extends Utilisateur {
 	public UAbonne() {
 		super();
 	}
-
+/*
+ * Ceci est le constructeur surcharé
+ * 
+ * 
+ */
 	public UAbonne(String login, String mdp, int duree, String categorie) {
 		super(login, mdp);
 		this.duree = duree;
