@@ -49,6 +49,8 @@ public class UAbonne extends Utilisateur {
 		return "UAbonne [duree=" + duree + ", categorie=" + categorie + "]";
 	}
 	
-	
+	/*
+	 * fonctions à ajouter
+	 */
 
 }
