@@ -9,6 +9,10 @@ import javax.persistence.Entity;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 
+/*
+ * Classe UAbonne hérite d'Utilisateur
+ */
+
 @Entity
 @Table
 @PrimaryKeyJoinColumn(name = "idU")
@@ -23,7 +27,7 @@ public class UAbonne extends Utilisateur {
 	}
 /*
  * Ceci est le constructeur surcharé
- * 
+ * avec des propeiétés ...
  * 
  */
 	public UAbonne(String login, String mdp, int duree, String categorie) {
@@ -57,4 +61,6 @@ public class UAbonne extends Utilisateur {
 	 * fonctions à ajouter
 	 */
 
+	
+	
 }
