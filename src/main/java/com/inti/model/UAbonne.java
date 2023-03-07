@@ -22,6 +22,11 @@ public class UAbonne extends Utilisateur {
 	private int duree;
 	private String categorie;
 	
+	/*
+	 * Le constructeur par defaut
+	 * 
+	 * 
+	 */
 	public UAbonne() {
 		super();
 	}
@@ -29,13 +34,21 @@ public class UAbonne extends Utilisateur {
  * Ceci est le constructeur surcharé
  * avec des propeiétés ...
  * 
+ * 
+ * 
  */
+ 
 	public UAbonne(String login, String mdp, int duree, String categorie) {
 		super(login, mdp);
 		this.duree = duree;
 		this.categorie = categorie;
 	}
 
+	/*
+	 * Les fonctions get/setters
+	 * 
+	 * 
+	 */
 	public int getDuree() {
 		return duree;
 	}
