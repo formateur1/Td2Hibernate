@@ -1,6 +1,10 @@
 package com.inti.model;
 
 import javax.persistence.DiscriminatorValue;
+
+
+/*  Projet Java :     */
+
 import javax.persistence.Entity;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
